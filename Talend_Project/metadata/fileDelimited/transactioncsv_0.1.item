@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_I6cD0LbWEfCJhL3x0Ep-wA" name="transactioncsv" dataPackage="_I6cD0bbWEfCJhL3x0Ep-wA" Server="Localhost 127.0.0.1" FilePath="C:/Users/User/Downloads/data engineer intern/transaction_csv.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_I6cD0bbWEfCJhL3x0Ep-wA" name="default" dataManager="_I6cD0LbWEfCJhL3x0Ep-wA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_I6cD0rbWEfCJhL3x0Ep-wA" id="_bKd7ELbVEfCJhL3x0Ep-wA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I6cD07bWEfCJhL3x0Ep-wA" label="transaction_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I6cD1LbWEfCJhL3x0Ep-wA" label="account_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I6cD1bbWEfCJhL3x0Ep-wA" label="transaction_date" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I6cD1rbWEfCJhL3x0Ep-wA" label="amount" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I6cD17bWEfCJhL3x0Ep-wA" label="transaction_type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I6cD2LbWEfCJhL3x0Ep-wA" label="branch_id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
